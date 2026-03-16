@@ -1,0 +1,189 @@
+
+.mainContainer {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* Page header */
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.pageHeader h2 {
+  margin: 0;
+}
+.searchAddToDo{
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  width: 100%;
+}
+
+/* Search input */
+.inputSearch {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #bbb;
+  width: 100%;
+  font-family:'Courier New', Courier, monospace;
+}
+::placeholder{
+  font-family:'Courier New', Courier, monospace;
+}
+
+
+/* Add button */
+.addBtn {
+  background-color: #2b2b2b;
+  color: white;
+  padding: .25rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dropdownSelect {
+  width: 7rem;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  background-color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s ease;
+  height: 100%;
+}
+
+.dropdownSelect:hover {
+  border-color: #0284c7;
+}
+
+.dropdownSelect:focus {
+  border-color: #0284c7;
+  box-shadow: 0 0 3px rgba(2, 132, 199, 0.5);
+}
+
+/* Modal */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.addTask{
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0 6px 0 6px;
+  outline: none;
+}
+.modal, form, .addTask {
+  box-sizing: border-box;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Modal box */
+.modal {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 100%;      
+  max-width: 400px; 
+}
+
+.modal h3 {
+  margin-top: 0;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.modalActions button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modalActions button[type="submit"] {
+  background-color: #0284c7;
+  color: white;
+}
+
+.modalActions button[type="button"] {
+  background-color: #eee;
+}
+
+table{
+  width: 100%;
+}
+.flexCheckboxName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .25rem;
+}
+.rowWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #aaa;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-top: .5rem;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnActionEdit{
+  background-color: transparent;
+  border-radius: 4px;
+  padding: .25rem;
+  background-color: #4d7c0f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+}
+.btnActionDelete{
+  background-color: transparent;
+  border-radius: 4px;
+  padding: .25rem;
+  background-color: #dc2626;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+}
+.SvgAction{
+  width: 18px;
+  height: 18px;
+}
+.buttonHolder{
+  display: flex;
+  gap: .35rem;
+}
