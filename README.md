@@ -20,19 +20,19 @@ A simple Todo application built with **React.js** (with Redux Toolkit and RTK Qu
 ## Installation
 
 ### Frontend
-npm i react-router-dom
-npm i @reduxjs/toolkit react-redux
+- npm i react-router-dom
+- npm i @reduxjs/toolkit react-redux
 
 ### Backend
-npm i cors
-npm i dotenv
-npm i express
-npm i helmet
-npm i morgan
-npm i mysql
-npm i mysql2
-npm i router
-npm i sequelize
+- npm i cors
+- npm i dotenv
+- npm i express
+- npm i helmet
+- npm i morgan
+- npm i mysql
+- npm i mysql2
+- npm i router
+- npm i sequelize
 
 ### .env
 DB_HOST=localhost
