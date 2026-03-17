@@ -42,4 +42,10 @@ A simple Todo application built with **React.js** (with Redux Toolkit and RTK Qu
 - DB_PASSWORD=root
 - PORT=4000
 
-- 
+### Client
+- cd client
+- npm i
+
+### Server
+- cd server
+- npm i
